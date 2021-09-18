@@ -1,0 +1,16 @@
+{
+  "name": "rise-js-tech-challenge-master",
+  "version": "1.0.0",
+  "description": "The coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"yarn start:client\" \"yarn start:server\"",
+    "start:client": "cd client && yarn start",
+    "start:server": "cd server && yarn start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
